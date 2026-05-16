@@ -3,8 +3,18 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "HASHA Sushi & Grill | First AYCE Sushi, Sashimi & Grill in Yogyakarta",
-  description: "Hasha Sushi & Grill — First All You Can Eat Sushi, Sashimi and Grill in Yogyakarta. Fresh sushi, premium sashimi, and authentic Japanese grill in a luxurious dining atmosphere.",
+  description: "Hasha Sushi & Grill — First All You Can Eat Sushi, Sashimi and Grill in Yogyakarta. Fresh sushi, premium sashimi, dan authentic Japanese grill dalam suasana mewah.",
   keywords: "sushi yogyakarta, ayce sushi, hasha sushi grill, japanese restaurant yogyakarta, sashimi yogyakarta",
+  icons: {
+    icon: [
+      { url: "/icon.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon.ico", sizes: "any" },
+    ],
+    apple: [
+      { url: "/apple-icon.png", sizes: "180x180", type: "image/png" },
+    ],
+    shortcut: "/favicon.ico",
+  },
   openGraph: {
     title: "HASHA Sushi & Grill",
     description: "First All You Can Eat Sushi, Sashimi and Grill in Yogyakarta",
